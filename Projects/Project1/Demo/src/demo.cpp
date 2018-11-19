@@ -3,9 +3,9 @@
 //-----------------------------------------------------------------------------
 #pragma region
 
+#include <SDKDDKVer.h>
 #include "logging\dump.hpp"
 #include "logging\logging.hpp"
-#include "targetver.h"
 #include "ui\window.hpp"
 
 #pragma endregion
@@ -34,7 +34,7 @@ namespace {
 
 		// Initialize a console.
 		InitializeConsole();
-		Print("Copyright (c) 2016-2018 Matthias Moulin.\n");
+		Print("Copyright (c) 2018 Matthias Moulin.\n");
 
 		// Initialize a window.
 		{
