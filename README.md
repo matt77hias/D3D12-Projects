@@ -11,7 +11,20 @@
 # D3D12-Projects
 Projects to start learning Direct3D12 (D3D12)
 
-**Uses**:
+## Development
+* **Platform**: Windows 10 32 Bit and 64 Bit (Windows API + Direct3D 12)
+* **Engine Programming Language**: ISO C++ Latest Draft Standard (> C++17)
+* **Scripting Language**: ISO C++ Latest Draft Standard (> C++17)
+* **Shading Language**: HLSL (Shader Model 6.0)
+* **Dependencies**:
+  * d3d12.lib
+  * dxgi.lib
+  * dxguid.lib
+  * d3dcompiler.lib
+* **Compiler**: MSVC++ 15.9.1
+* **IDE**: Visual Studio 2017
+
+## Codebase
 * [(Dear) ImGui](https://github.com/ocornut/imgui) [[License](https://github.com/ocornut/imgui/blob/master/LICENSE.txt)]
   * [stb](https://github.com/nothings/stb) [[License](https://creativecommons.org/share-your-work/public-domain/cc0/)]
 * [{fmt}](https://github.com/fmtlib/fmt) [[License](https://github.com/fmtlib/fmt/blob/master/LICENSE.rst)]
@@ -24,3 +37,5 @@ Projects to start learning Direct3D12 (D3D12)
   * [Microsoft DirectX Graphics Infrastructure (DXGI)](https://docs.microsoft.com/en-us/windows/desktop/direct3ddxgi/d3d10-graphics-programming-guide-dxgi)
   * [Windows Runtime C++ Template Library (WRL)](https://docs.microsoft.com/nl-be/cpp/windows/windows-runtime-cpp-template-library-wrl?view=vs-2017)
 * [std](https://en.cppreference.com/w/cpp/header)
+
+<p align="center">Copyright © 2016-2018 Matthias Moulin. All Rights Reserved.</p>
