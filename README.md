@@ -10,3 +10,17 @@
 
 # D3D12-Projects
 Projects to start learning Direct3D12 (D3D12)
+
+**Uses**:
+* [(Dear) ImGui](https://github.com/ocornut/imgui) [[License](https://github.com/ocornut/imgui/blob/master/LICENSE.txt)]
+  * [stb](https://github.com/nothings/stb) [[License](https://creativecommons.org/share-your-work/public-domain/cc0/)]
+* [{fmt}](https://github.com/fmtlib/fmt) [[License](https://github.com/fmtlib/fmt/blob/master/LICENSE.rst)]
+* Microsoft Corporation Libraries:
+  * [Direct3D 12](https://docs.microsoft.com/nl-be/windows/desktop/direct3d12/direct3d-12-graphics)
+  * [DirectXShaderCompiler](https://github.com/Microsoft/DirectXShaderCompiler) [[License](https://github.com/Microsoft/DirectXShaderCompiler/blob/master/LICENSE.TXT)]
+  * [DirectXMath](https://github.com/Microsoft/DirectXMath) [[License](https://github.com/Microsoft/DirectXMath/blob/master/LICENSE)]
+  * [DirectXTex](https://github.com/Microsoft/DirectXTex) [[License](https://github.com/Microsoft/DirectXTex/blob/master/LICENSE)]
+  * [Guidelines Support Library (GSL)](https://github.com/Microsoft/GSL) [[License](https://github.com/Microsoft/GSL/blob/master/LICENSE)]
+  * [Microsoft DirectX Graphics Infrastructure (DXGI)](https://docs.microsoft.com/en-us/windows/desktop/direct3ddxgi/d3d10-graphics-programming-guide-dxgi)
+  * [Windows Runtime C++ Template Library (WRL)](https://docs.microsoft.com/nl-be/cpp/windows/windows-runtime-cpp-template-library-wrl?view=vs-2017)
+* [std](https://en.cppreference.com/w/cpp/header)
