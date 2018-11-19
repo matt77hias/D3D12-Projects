@@ -1,5 +1,5 @@
-#include "platform\windows.hpp"
-#include "type\types.hpp"
+#include "logging\dump.hpp"
+#include "logging\logging.hpp"
 
 #include <iostream>
 
@@ -8,6 +8,7 @@ int WINAPI WinMain(_In_ HINSTANCE instance,
 				   _In_     [[maybe_unused]] LPSTR lpCmdLine,
 				   _In_ int nCmdShow) {
 
+	using namespace mage;
 	
 	#ifdef _DEBUG
 	const int debug_flags = _CrtSetDbgFlag(_CRTDBG_REPORT_FLAG);
@@ -17,11 +18,10 @@ int WINAPI WinMain(_In_ HINSTANCE instance,
 	_CrtSetDbgFlag(debug_flags | _CRTDBG_LEAK_CHECK_DF);
 	#endif
 
-	//AddUnhandledExceptionFilter();
+	AddUnhandledExceptionFilter();
 
 	// Initialize a console.
-	//InitializeConsole();
-	//PrintConsoleHeader();
+	InitializeConsole();
 	
 	(void)instance;
 	(void)nCmdShow;
