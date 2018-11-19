@@ -19,7 +19,6 @@ Projects to start learning Direct3D12 (D3D12)
 * **Dependencies**:
   * d3d12.lib
   * dxgi.lib
-  * dxguid.lib
   * d3dcompiler.lib
 * **Compiler**: MSVC++ 15.9.1
 * **IDE**: Visual Studio 2017
