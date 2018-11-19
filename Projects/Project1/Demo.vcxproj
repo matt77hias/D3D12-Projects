@@ -91,7 +91,7 @@
     <SourcePath>..\Common\DirectXTex\src;..\Common\ImGui\src;..\Common\MAGE\src;..\Common\fmt\src\;$(VC_SourcePath);</SourcePath>
   </PropertyGroup>
   <ItemGroup>
-    <ClCompile Include="Demo\src\Demo.cpp" />
+    <ClCompile Include="Demo\src\demo.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Common\DirectXTex.vcxproj">
