@@ -11,7 +11,7 @@
 # D3D12-Projects
 
 ## About
-Projects to start learning Direct3D12 (D3D12)
+Projects to start learning Direct3D12 (D3D12).
 
 ## Development
 * **Platform**: Windows 10 32 Bit and 64 Bit (Windows API + Direct3D 12)
