@@ -40,4 +40,4 @@ Projects to start learning Direct3D12 (D3D12).
   * [Windows Runtime C++ Template Library (WRL)](https://docs.microsoft.com/nl-be/cpp/windows/windows-runtime-cpp-template-library-wrl?view=vs-2017)
 * [std](https://en.cppreference.com/w/cpp/header)
 
-<p align="center">Copyright © 2018 Matthias Moulin. All Rights Reserved.</p>
+<p align="center">Copyright © 2018-2019 Matthias Moulin. All Rights Reserved.</p>
