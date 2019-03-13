@@ -22,7 +22,7 @@ Projects to start learning Direct3D12 (D3D12).
   * d3d12.lib
   * dxgi.lib
   * d3dcompiler.lib
-* **Compiler**: MSVC++ 15.9.8
+* **Compiler**: MSVC++ 15.9.9
 * **IDE**: Visual Studio 2017
 
 ## Codebase
