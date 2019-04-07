@@ -320,7 +320,7 @@ namespace {
 			ThrowIfFailed(g_command_list->Close());
 
 			ID3D12CommandList* const command_lists[] = { g_command_list.Get() };
-			g_command_queue->ExecuteCommandLists(static_cast< U32 >(std::size(command_lists), command_lists);
+			g_command_queue->ExecuteCommandLists(static_cast< U32 >(std::size(command_lists)), command_lists);
 
 			FlushCommandQueue();
 		}
