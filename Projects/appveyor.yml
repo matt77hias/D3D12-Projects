@@ -17,6 +17,7 @@ platform:
 environment:
   matrix:
   - solution_name: "Projects/Project1/Demo.sln"
+  - solution_name: "Projects/Project2/Demo.sln"
 
 ###############################################################################
 # Build Configuration
