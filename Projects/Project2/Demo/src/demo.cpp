@@ -116,7 +116,7 @@ namespace {
 
 		// Initialize a console.
 		InitializeConsole();
-		Print("Copyright (c) 2016-2019 Matthias Moulin.\n");
+		Print("Copyright (c) 2019 Matthias Moulin.\n");
 
 		// Initialize a window.
 		{
@@ -320,7 +320,7 @@ namespace {
 			ThrowIfFailed(g_command_list->Close());
 
 			ID3D12CommandList* const command_lists[] = { g_command_list.Get() };
-			g_command_queue->ExecuteCommandLists(1u, command_lists);
+			g_command_queue->ExecuteCommandLists(static_cast< U32 >(std::size(command_lists), command_lists);
 
 			FlushCommandQueue();
 		}
@@ -410,7 +410,7 @@ namespace {
 		ThrowIfFailed(g_command_list->Close());
 
 		ID3D12CommandList* const command_lists[] = { g_command_list.Get() };
-		g_command_queue->ExecuteCommandLists(1u, command_lists);
+		g_command_queue->ExecuteCommandLists(static_cast< U32 >(std::size(command_lists)), command_lists);
 
 		// Present the back buffer to the front buffer.
 		ThrowIfFailed(g_swap_chain->Present(0u, 0u));
