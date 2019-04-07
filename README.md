@@ -13,6 +13,9 @@
 ## About
 Projects to start learning Direct3D12 (D3D12).
 
+* [Project 1](https://github.com/matt77hias/D3D12-Projects/tree/master/Projects/Project1): Creating a window for displaying
+* [Project 2](https://github.com/matt77hias/D3D12-Projects/tree/master/Projects/Project2): Rendering the background color of a window
+
 ## Development
 * **Platform**: Windows 10 32 Bit and 64 Bit (Windows API + Direct3D 12)
 * **Engine Programming Language**: ISO C++ Latest Draft Standard (> C++17)
