@@ -25,8 +25,8 @@ Projects to start learning Direct3D12 (D3D12).
   * d3d12.lib
   * dxgi.lib
   * d3dcompiler.lib
-* **Compiler**: MSVC++ 15.9.11
-* **IDE**: Visual Studio 2017
+* **Compiler**: MSVC++ 16.0.0
+* **IDE**: Visual Studio 2019
 
 ## Codebase
 * [(Dear) ImGui](https://github.com/ocornut/imgui) [[License](https://github.com/ocornut/imgui/blob/master/LICENSE.txt)]
