@@ -93,7 +93,7 @@ namespace {
 		ThrowIfFailed(g_command_queue->Signal(g_fence.Get(), g_fence_value));
 
 		if (g_fence->GetCompletedValue() < g_fence_value) {
-			const HANDLE event_handle = CreateEventEx(nullptr, false, false, EVENT_ALL_ACCESS);
+			const HANDLE event_handle = ::CreateEvent(nullptr, FALSE, FALSE, nullptr);
 
 			ThrowIfFailed(g_fence->SetEventOnCompletion(g_fence_value, event_handle));
 
