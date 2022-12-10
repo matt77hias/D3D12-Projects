@@ -32,7 +32,7 @@ Projects to start learning Direct3D12 (D3D12).
 * [(Dear) ImGui](https://github.com/ocornut/imgui) [[License](https://github.com/ocornut/imgui/blob/master/LICENSE.txt)]
   * [stb](https://github.com/nothings/stb) [[License](https://creativecommons.org/share-your-work/public-domain/cc0/)]
 * [{fmt}](https://github.com/fmtlib/fmt) [[License](https://github.com/fmtlib/fmt/blob/master/LICENSE.rst)]
-* [MAGE](https://github.com/matt77hias/MAGE) [[License](https://github.com/matt77hias/MAGE/blob/master/LICENSE.txt)]
+* [MAGE v0](https://github.com/matt77hias/MAGE-v0) [[License](https://github.com/matt77hias/MAGE-v0/blob/master/LICENSE.txt)]
 * Microsoft Corporation Libraries:
   * [Direct3D 12](https://docs.microsoft.com/nl-be/windows/desktop/direct3d12/direct3d-12-graphics)
   * [DirectXShaderCompiler](https://github.com/Microsoft/DirectXShaderCompiler) [[License](https://github.com/Microsoft/DirectXShaderCompiler/blob/master/LICENSE.TXT)]
