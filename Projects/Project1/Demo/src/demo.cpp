@@ -34,7 +34,7 @@ namespace {
 
 		// Initialize a console.
 		InitializeConsole();
-		Print("Copyright (c) 2018-2019 Matthias Moulin.\n");
+		Print("Copyright (c) 2018 Matthias Moulin.\n");
 
 		// Initialize a window.
 		{
